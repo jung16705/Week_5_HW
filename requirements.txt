@@ -1,0 +1,20 @@
+# --- 核心 GIS 與資料處理 ---
+geopandas>=0.14.0
+pandas>=2.0.0
+shapely>=2.0.0
+pyproj>=3.6.0
+
+# --- 網路請求與環境變數 ---
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# --- 地圖視覺化 ---
+folium>=0.15.0
+branca>=0.7.0
+
+# --- 數值計算 (選用，通常 geopandas 會包含) ---
+numpy>=1.24.0
+
+# --- Jupyter 執行環境 ---
+ipykernel
+notebook
